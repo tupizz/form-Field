@@ -14,7 +14,9 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'forms', loadChildren: './forms/forms.module#FormsPageModule' },
+  { path: 'validacao', loadChildren: './validacao/validacao.module#ValidacaoPageModule' }
 ];
 
 @NgModule({
